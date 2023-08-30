@@ -1,0 +1,350 @@
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* custom css classes */
+
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  background-color: #17a5a51f;
+}
+
+.page {
+  padding: 4% 0%;
+  margin: 0% 12%;
+  background-color: #ffffff;
+}
+
+.page1 {
+  padding: 1% 0%;
+  margin: -6% 12%;
+  /* background-color: #ffffff; */
+}
+
+.page2 {
+  padding: 0px 15%;
+}
+
+p {
+  margin: 0px;
+}
+
+.button_1 {
+  padding: 13px 70px;
+  margin: 0px 0px;
+  background-color: #049ea1;
+  border: 2px solid #049ea1;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+  width: 100%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button_1_d {
+  padding: 13px 70px;
+  margin: 0px 0px;
+  background-color: #c5c5c5;
+  border: 2px solid #c5c5c5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.button_1:hover {
+  background-color: #ffffff;
+  color: #049ea1;
+  border: 2px solid #049ea1;
+  box-shadow: 0px 0px 5px #049ea1;
+}
+
+.d-center {
+  display: flex;
+  justify-content: center;
+}
+
+.button_2 {
+  padding: 13px 40px;
+  margin: 40px 0px;
+  background-color: #049ea1;
+  border: 2px solid #049ea1;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+  text-align: end;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button_2:hover {
+  background-color: #ffffff;
+  color: #049ea1;
+  border: 2px solid #049ea160;
+}
+
+.button_3 {
+  padding: 13px 40px;
+  margin: 40px 0px;
+  background-color: #949494;
+  border: 2px solid #949494;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+  text-align: end;
+  cursor: not-allowed;
+}
+
+.input_field {
+  margin-top: 15px;
+}
+
+.quastion {
+  font-weight: 200;
+}
+
+.single-input {
+  border: 0px;
+  outline: 0px;
+  width: 98%;
+}
+
+.input-field-box {
+  border: 0.5px solid #049ea1;
+  padding: 6px 10px;
+  border-radius: 6px;
+  /* box-shadow: 0px 0px 5px #049ea14f; */
+  margin-bottom: 15px;
+}
+
+.redhat-logo {
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: -6%;
+}
+
+.home-page-text {
+  font-weight: 300;
+  padding: 0 5%;
+  color: #282c34b6;
+  margin-top: 8%;
+}
+
+.fill-form {
+  padding: 13px 25%;
+  margin: 40px 0px;
+  color: #049ea1;
+  border: 2px solid #049ea1;
+  background: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+input,
+input:active {
+  border: 0px;
+  outline: 0px;
+}
+
+select {
+  border: 0px;
+  outline: 0px;
+  width: 100%;
+}
+
+.SingleQueForm {
+  text-align: center;
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.logo-text {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0px
+}
+
+.topBar {
+  padding: 20px 80px;
+  background: #049ea1;
+}
+
+
+.navBar {
+  background-color: teal;
+}
+
+.navBar img {
+  height: 3vw;
+}
+
+.navBar p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.5vw;
+  margin-bottom: 0px;
+  opacity: 0.7;
+}
+
+.mainBannerLeft {
+  height: 14vw;
+  padding: 2vw;
+  margin-top: 5vw;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.mainBannerRight {
+  height: 35vw;
+  padding: 2vw;
+  margin-top: 5vw;
+
+}
+
+.mainbanner-left h2 {
+  font-weight: 700;
+  margin-top: 1vw;
+}
+
+.mainbanner-left button {
+  margin-top: 2vw;
+  padding: 0.6vw 2.5vw;
+  border: none;
+  background-color: teal;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.mainBanner {
+  background-image: url('./Assets/mainbannerBackground.png');
+  background-size: 100vw;
+}
+
+hr {
+  margin-top: 2vw;
+}
+
+.content h1 {
+  font-weight: 700;
+  color: teal;
+}
+
+.features {
+  height: 15vw;
+  margin: 3vw;
+}
+
+.test1 {
+  height: 15vw;
+  margin: 3vw;
+}
+
+li {
+  margin-bottom: 1vw;
+}
+
+.content a {
+  margin-top: 5vw;
+  padding: 1vw 2.5vw;
+  border: none;
+  background-color: teal;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 4px;
+  text-decoration: none
+}
+
+.lastPage p {
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.lastPage button {
+  margin-top: 5vw !important;
+  padding: 1vw 2.5vw;
+  border: none;
+  background-color: teal;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 4px;
+  text-decoration: none
+}
+
+.lastPage h6 {
+  margin: 3vw;
+}
+
+.lastPage h6 a {
+  color: teal;
+  text-decoration: none;
+}
+
+.testcase {
+  margin-bottom: 3vw;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
